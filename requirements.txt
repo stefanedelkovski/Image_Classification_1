@@ -1,0 +1,4 @@
+termcolor
+tqdm
+opencv-python
+colorama
