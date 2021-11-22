@@ -44,3 +44,13 @@ Normal distribution as shown in the images:
 If we compare the values from the X axis from these distributions, we can clearly conclude that there's a quality 
 gap between the qualities of the photos. Simply by placing a threshold between the categories is sufficient to classify
 image as bad, average or good. 
+
+### Conclusion
+
+This approach will always work for similar images to the ones used to define the threshold. Infact, this approach has
+100% accuracy on classifying unseen images from the same dataset. However, trying to classify a new different image
+will most probably fail. If the input images from the client are always similar, the model will never fail. 
+
+I created this solution to point out that not all complex solutions are the most suitable ones. For this
+particular problem, this CV solution is pretty convenient, since it is light and requires no training, 
+yet it provides accurate results. In a real life scenario, this wouldn't be my preferred approach.
