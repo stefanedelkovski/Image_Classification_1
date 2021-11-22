@@ -1,5 +1,3 @@
-# Image_Classification_1
-
 ## CNN Image Quality Classifier
 
 ### Overview
